@@ -31,6 +31,7 @@ export default {
       black: '#000000',
       red: 'rgba(var(--primary-700), <alpha-value>)',
       primary: {
+        DEFAULT: 'rgba(var(--primary-500), <alpha-value>)',
         50: 'rgba(var(--primary-50), <alpha-value>)',
         100: 'rgba(var(--primary-100), <alpha-value>)',
         200: 'rgba(var(--primary-200), <alpha-value>)',
@@ -44,6 +45,7 @@ export default {
         950: 'rgba(var(--primary-950), <alpha-value>)'
       },
       ignite: {
+        DEFAULT: '#FF140F',
         50: '#FEF6F5',
         100: '#FFE9E8',
         200: '#FDDBD7',
@@ -57,6 +59,7 @@ export default {
         950: '#2E0000'
       },
       gray: {
+        DEFAULT: '#838386',
         50: '#f5f5f7',
         100: '#eeeef0',
         200: '#e2e2e4',
@@ -70,6 +73,7 @@ export default {
         950: '#0c0c0c'
       },
       green: {
+        DEFAULT: '#00913f',
         50: '#f0faf2',
         100: '#e3f6e5',
         200: '#c6eccc',
@@ -83,6 +87,7 @@ export default {
         950: '#001502'
       },
       blue: {
+        DEFAULT: '#487ff1',
         50: '#f4f8ff',
         100: '#e8f1ff',
         200: '#d5e3fe',
