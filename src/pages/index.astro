@@ -3,8 +3,16 @@
 import Hero, { type HeroContentModel } from '../components/Hero/Hero';
 import Layout from '../layouts/Layout.astro';
 
+const heroContent: HeroContentModel = {
+    title: "<span class='text-white'>The <span class='text-primary'>Best</span><br>Racing Events</span>",
+    subtitle: "Stream thousands of dirt, drag, pavement, and snow races.",
+    imageUrl: "https://d6fm3yzmawlcs.cloudfront.net/funnelAssets/dark-theme/floracing-hero-2.jpg",
+	videoUrl: "https://d6fm3yzmawlcs.cloudfront.net/funnelAssets/videos/floracing_signup.mp4"
+}
+
 // TODO: add hero content type
-const { frontmatter } = Astro.props;
+// const { frontmatter } = Astro.props; // this causes errors
+// console.log('frontmatter', frontmatter)
 ---
 
 
@@ -12,6 +20,6 @@ const { frontmatter } = Astro.props;
 <Layout title="Signup to FloSports">
 	<main>
 		<!-- Hero -->
-		 <Hero content{...frontmatter.content} />
+		 <Hero content{...heroContent} />
 	</main>
 </Layout>
