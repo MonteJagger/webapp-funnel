@@ -1,5 +1,5 @@
 ---
-layout: ../index.astro
+layout: ../../layouts/Landing.astro
 titleTag: Signup for FloRacing Today!
 content: 
     title: <span class='text-white'>The <span class='text-primary'>Best</span><br>Racing Events</span>

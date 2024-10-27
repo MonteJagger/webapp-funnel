@@ -1,5 +1,5 @@
 ---
-layout: ../index.astro
+layout: ../../layouts/Landing.astro
 titleTag: Signup for FloWrestling Today! 
 content:
     title: <span class='text-white'>The <span class='text-primary font-family-regular'>Best</span><br>Wrestling Events</span>
