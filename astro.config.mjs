@@ -7,7 +7,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://montejagger.github.io/webapp-funnel/',
-  base: '/',
+  base: 'webapp-funnel', // for GitHub Pages
   integrations: [react(), tailwind()],
   build: {
     assets: 'assets',
