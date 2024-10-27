@@ -1,0 +1,16 @@
+---
+import "../styles/global.scss";
+import Layout from "./Layout.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title="Signup to FloSports">
+        <h1>{ frontmatter.content.title }</h1>
+        <h2>{ frontmatter.content.subtitle }</h2>
+		<a href="/webapp-funnel">Landing Page</a>
+		<a href="/webapp-funnel/signup">Sign up</a>
+		<slot />
+
+	</body>
+</Layout>

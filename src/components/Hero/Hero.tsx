@@ -38,7 +38,7 @@ const Hero: React.FC<HeroContentModel> = (content: HeroContentModel) => {
                     <h1 dangerouslySetInnerHTML={{ __html: content.title }}></h1>
                     <p className='text-white'>{content.subtitle}</p>
                 </div>
-                <button className='bg-primary-700 hover:bg-primary-800 text-white font-bold py-2 px-4 rounded'>Get Started</button>
+                <button className='bg-primary hover:bg-primary-800 text-white font-bold py-2 px-4 rounded'>Get Started</button>
             </div>
 
         </div>
